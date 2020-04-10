@@ -107,7 +107,7 @@ DWORD fork(void)
 
 int main(int argc, char** argv)
 {
-  while (true)
+  while (TRUE)
   {
     fork();
     malloc(sizeof(int) * 100000);
